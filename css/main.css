@@ -5,7 +5,7 @@ html, body {
 	font-size: 16px;
 	font-family: 'M PLUS 1p', sans-serif;
 	color: #505050;
-	background: #fff;
+	background: #f0fadc;
 }
 body, div, p, h1, h2, h3, h4, ul, figure {
 	margin: 0;
@@ -75,7 +75,7 @@ main h1 {
 
 /* ========== ヘッダー ========== */
 header {
-	background: #505050;
+	background: #3341c8;
 }
 .header-inner {
 	display: flex;
@@ -111,7 +111,7 @@ header {
 	.header-logo {
 		padding: 20px 0;
 		width: 250px;
-		height: 90px;
+		height: 60px;
 	}
 	.menu-btn {
 		display: none;
@@ -174,7 +174,9 @@ nav {
 main {
 	padding-top: 0px;
 	padding-bottom: 20px;
+	/*
 	background: #fff;
+	*/
 }
 
 @media screen and (min-width: 767px) {
@@ -215,7 +217,7 @@ side {
 
 /* ========== フッター ========== */
 footer {
-	background: #505050;
+	background: #3341c8;
 	font-size: 0.9rem;
 	color: #fff;
 }
